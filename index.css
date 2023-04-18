@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Hanken Grotesk;
+}
+
+.container {
+    /* border: 1px solid black; */
+    width: 40vw;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+     box-shadow: 2px 2px 5px hsl(252, 100%, 67%);
+
+}
+
+.left {
+    width: 50%;
+    background-color: hsl(241, 81%, 54%);
+    text-align: center;
+    color: gainsboro;
+    padding: 30px 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px hsl(252, 100%, 67%);
+}
+
+
+.circle {
+
+    height: 98px;
+    width: 96px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: hsla(256, 72%, 46%, 1);
+    box-shadow: 2px 5px 10px 10px hsla(241, 72%, 46%, 0);
+    margin-top: 20px;
+
+}
+
+.container .left p {
+    text-align: center;
+}
+
+#p1 {
+    position: relative;
+    top: 18px;
+
+
+}
+
+#p1 span {
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.left h2 {
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+.left p {
+    margin-top: 20px;
+    font-size: 15px
+}
+
+/* ----right------ */
+
+.right {
+    width: 50%;
+    padding: 10px 20px;
+}
+
+.box {
+    height: 35px;
+    width: 90%;
+
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+img {
+    vertical-align: middle;
+
+}
+
+.right1 span {
+    color: gray;
+}
+
+.box1 {
+    background-color: hsla(0, 100%, 67%, 0.226);
+}
+
+.box1 .c1 {
+    color: hsl(0, 100%, 67%);
+
+}
+
+.box2 {
+    background-color: hsla(39, 100%, 56%, 0.247);
+}
+
+.box2 .c2 {
+    color: hsl(39, 100%, 56%);
+
+}
+
+.box3 {
+    background-color: hsla(166, 100%, 37%, 0.24);
+}
+
+.box3 .c3 {
+    color: hsl(166, 100%, 37%)
+}
+
+.box4 {
+    background-color: hsla(234, 85%, 45%, 0.205);
+}
+
+.box4 .c4 {
+    color: hsl(234, 85%, 45%)
+}
+.btn{
+    height: 35px;
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    background-color:hsl(224, 30%, 27%) ;
+    color: whitesmoke;
+    cursor: pointer;
+}
+@media only screen and (max-width:978px) {
+ .container{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   width: 80vw;
+   padding: 10px;
+ }
+ .left{
+    width: 70%;
+
+ }
+ .right{
+    width:70%;
+ }
+}
